@@ -10,7 +10,7 @@ export default function Header() {
             <div className="container">
                 <div className="logo-container">
                     <Link href={"/"}><Image
-                        src={require("../../../Assets/Logo.svg")}
+                        src={require("../../../public/Logo.svg")}
                         alt="Picture of the author"
                     /></Link>
 

@@ -4,7 +4,7 @@ import { faFilter, faPlus } from "@fortawesome/free-solid-svg-icons"
 import Footer from "../../Components/Footer/Footer"
 import Header from "../../Components/Header/Header"
 import "./page.scss"
-import { allShops } from "../../../Assets/js/assets"
+import { allShops } from "../../../public/js/public"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Shop from "../../Components/Shop/Shop"

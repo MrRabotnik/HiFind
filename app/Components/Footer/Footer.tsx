@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="container">
                 <div className="footer-logo-container">
                     <Image
-                        src={require("../../../Assets/Logo.svg")}
+                        src={require("../../../public/Logo.svg")}
                         alt="Picture of the author"
                     />
                 </div>
@@ -32,7 +32,7 @@ export default function Footer() {
                     <div>
                         <div className="mail-icon-container">
                             <Image
-                                src={require("../../../Assets/mail.svg")}
+                                src={require("../../../public/mail.svg")}
                                 alt="Picture of the author"
                             />
                         </div> info@xplode.am

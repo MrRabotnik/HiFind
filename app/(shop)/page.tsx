@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import "./page.scss";
-import { recentShopsFile } from "../../Assets/js/assets"
+import { recentShopsFile } from "../../public/js/public"
 
 import Header from "../Components/Header/Header";
 import Footer from "../Components/Footer/Footer";
@@ -35,7 +35,7 @@ export default function Home() {
                             <Link href={"/shops"}>
                                 <div>
                                     <Image
-                                        src={require("../../Assets/shopping-bag.svg")}
+                                        src={require("../../public/shopping-bag.svg")}
                                         alt="Picture of the author"
                                     />
                                     <p>Խանութներ</p>
@@ -45,7 +45,7 @@ export default function Home() {
                             <Link href={"/shops"}>
                                 <div>
                                     <Image
-                                        src={require("../../Assets/gears.svg")}
+                                        src={require("../../public/gears.svg")}
                                         alt="Picture of the author"
                                     />
                                     <p>Ծառայություններ</p>
@@ -56,7 +56,7 @@ export default function Home() {
                         <Link href={"/shops"}>
                             <div className="second-box">
                                 <Image
-                                    src={require("../../Assets/dishes.svg")}
+                                    src={require("../../public/dishes.svg")}
                                     alt="Picture of the author"
                                 />
                                 <p>Ժամանց</p>
@@ -67,7 +67,7 @@ export default function Home() {
                             <Link href={"/shops"}>
                                 <div>
                                     <Image
-                                        src={require("../../Assets/brush.svg")}
+                                        src={require("../../public/brush.svg")}
                                         alt="Picture of the author"
                                     />
                                     <p>Գեղեցկություն</p>
@@ -77,7 +77,7 @@ export default function Home() {
                             <Link href={"/shops"}>
                                 <div>
                                     <Image
-                                        src={require("../../Assets/heart-plus.svg")}
+                                        src={require("../../public/heart-plus.svg")}
                                         alt="Picture of the author"
                                     />
                                     <p>Առողջություն/Խնամք</p>
@@ -109,7 +109,7 @@ export default function Home() {
                 <section className="third-section">
                     <div className="img-container">
                         <Image
-                            src={require("../../Assets/about-us-img.svg")}
+                            src={require("../../public/about-us-img.svg")}
                             alt="Picture of the author"
                         />
                     </div>
