@@ -1,0 +1,143 @@
+@import "../../constants.scss";
+
+.join-us-section {
+    // background-color: $bg-grey;
+    background-color: #f4f4f4;
+    padding: 60px;
+
+    .container {
+        .join-us-modal-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .join-us-modal {
+                width: 40%;
+                height: auto;
+                padding: 60px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                background-color: $bg-white;
+                border-radius: 20px;
+
+                h3 {
+                    margin-top: 0;
+                    text-align: center;
+                }
+
+                input {
+                    padding: 15px 20px;
+                    width: 90%;
+                    border-radius: 25px;
+                    border: 1px solid #eaeaea;
+                }
+
+                textarea {
+                    padding: 15px 20px;
+                    width: 90%;
+                    border-radius: 25px;
+                    border: 1px solid #eaeaea;
+                    resize: none;
+                    margin-bottom: 30px;
+                    min-height: 80px;
+                }
+
+                ul {
+                    padding: 0;
+                    list-style: none;
+
+                    li {
+                        width: 100%;
+                        padding: 10px;
+                        padding-left: 0;
+
+                        svg {
+                            width: 15px;
+                        }
+                    }
+                }
+
+                span {
+                    width: 100%;
+                    font-size: 12px;
+                }
+
+                .agreed {
+                    display: flex;
+
+                    .checkbox-round {
+                        width: 25px;
+                        height: 25px;
+                        background-color: white;
+                        border: 1px solid #ddd;
+                        -webkit-appearance: none;
+                        appearance: none;
+                        outline: none;
+                        cursor: pointer;
+                        padding: 0;
+                        border-radius: 50%;
+                        margin: 0;
+                        margin-right: 5px;
+                    }
+
+                    .checkbox-round:checked {
+                        background-color: rgb(102, 102, 102);
+                    }
+                }
+
+                button {
+                    width: 100%;
+                    margin-top: 20px;
+                }
+
+                .disabled {
+                    background-color: $bg-grey;
+                    color: grey;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .join-us-section {
+        .container {
+            .join-us-modal-container {
+                .join-us-modal {
+                    width: 60%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .join-us-section {
+        padding: 40px 0;
+        .container {
+            .join-us-modal-container {
+                .join-us-modal {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .join-us-section {
+        padding: 0;
+        .container {
+            width: 100%;
+            .join-us-modal-container {
+                .join-us-modal {
+                    padding: 60px 20px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,93 @@
+@import "../../constants.scss";
+
+.terms-section {
+    background-color: $bg-grey;
+    padding: 40px 0;
+
+    .container {
+        h2 {
+            text-align: center;
+        }
+
+        .users-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 90px 0;
+
+            & > div {
+                border-radius: 50%;
+                width: 12vw;
+                height: 12vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(200, 200, 200);
+            }
+
+            & > div:first-child {
+                background-color: $btn-color;
+                color: $btn-color-text;
+            }
+        }
+
+        .users-text-container {
+            display: flex;
+
+            .users-name {
+                text-align: center;
+                width: 25%;
+                font-size: 24px;
+                font-weight: bold;
+            }
+
+            .users-text {
+                width: 75%;
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .terms-section {
+        .container {
+            .users-container {
+                flex-direction: column;
+                align-items: center;
+                margin-top: 20px;
+
+                & > div {
+                    width: 30vw;
+                    height: 30vw;
+                    margin-bottom: 20px;
+                }
+            }
+
+            .users-text-container {
+                flex-direction: column;
+                .users-name {
+                    width: 100%;
+                    text-align: start;
+                    margin-bottom: 20px;
+                }
+
+                .users-text {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .terms-section {
+        .container {
+            .users-container {
+                & > div {
+                    width: 50vw;
+                    height: 50vw;
+                }
+            }
+        }
+    }
+}
