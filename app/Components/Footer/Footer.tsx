@@ -4,13 +4,16 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
+import logo from "../../../Assets/logo.svg"
+import emailIcon from "../../../Assets/mail.svg"
+
 export default function Footer() {
     return (
         <footer className="footer">
             <div className="container">
                 <div className="footer-logo-container">
                     <Image
-                        src={require("../../../public/Logo.svg")}
+                        src={logo}
                         alt="Picture of the author"
                     />
                 </div>
@@ -32,7 +35,7 @@ export default function Footer() {
                     <div>
                         <div className="mail-icon-container">
                             <Image
-                                src={require("../../../public/mail.svg")}
+                                src={emailIcon}
                                 alt="Picture of the author"
                             />
                         </div> info@xplode.am

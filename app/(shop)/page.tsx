@@ -4,11 +4,18 @@ import Image from "next/image";
 import Link from "next/link";
 
 import "./page.scss";
-import { recentShopsFile } from "../../public/js/public"
+import { recentShopsFile } from "../../Assets/js/assets"
 
 import Header from "../Components/Header/Header";
 import Footer from "../Components/Footer/Footer";
 import Shop from "../Components/Shop/Shop";
+
+import shoppingBagIcon from "../../Assets/shopping-bag.svg";
+import gearsIcon from "../../Assets/gears.svg";
+import dishesIcon from "../../Assets/dishes.svg";
+import brushIcon from "../../Assets/brush.svg";
+import heartPlusIcon from "../../Assets/heart-plus.svg";
+import aboutUsImg from "../../Assets/about-us-img.svg";
 
 export default function Home() {
     const [recentShops, setRecentShops] = useState(recentShopsFile)
@@ -35,7 +42,7 @@ export default function Home() {
                             <Link href={"/shops"}>
                                 <div>
                                     <Image
-                                        src={require("../../public/shopping-bag.svg")}
+                                        src={shoppingBagIcon}
                                         alt="Picture of the author"
                                     />
                                     <p>Խանութներ</p>
@@ -45,7 +52,7 @@ export default function Home() {
                             <Link href={"/shops"}>
                                 <div>
                                     <Image
-                                        src={require("../../public/gears.svg")}
+                                        src={gearsIcon}
                                         alt="Picture of the author"
                                     />
                                     <p>Ծառայություններ</p>
@@ -56,7 +63,7 @@ export default function Home() {
                         <Link href={"/shops"}>
                             <div className="second-box">
                                 <Image
-                                    src={require("../../public/dishes.svg")}
+                                    src={dishesIcon}
                                     alt="Picture of the author"
                                 />
                                 <p>Ժամանց</p>
@@ -67,7 +74,7 @@ export default function Home() {
                             <Link href={"/shops"}>
                                 <div>
                                     <Image
-                                        src={require("../../public/brush.svg")}
+                                        src={brushIcon}
                                         alt="Picture of the author"
                                     />
                                     <p>Գեղեցկություն</p>
@@ -77,7 +84,7 @@ export default function Home() {
                             <Link href={"/shops"}>
                                 <div>
                                     <Image
-                                        src={require("../../public/heart-plus.svg")}
+                                        src={heartPlusIcon}
                                         alt="Picture of the author"
                                     />
                                     <p>Առողջություն/Խնամք</p>
@@ -109,7 +116,7 @@ export default function Home() {
                 <section className="third-section">
                     <div className="img-container">
                         <Image
-                            src={require("../../public/about-us-img.svg")}
+                            src={aboutUsImg}
                             alt="Picture of the author"
                         />
                     </div>

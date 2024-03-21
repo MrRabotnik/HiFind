@@ -4,13 +4,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 
+import logo from "../../../Assets/logo.svg"
+
 export default function Header() {
     return (
         <header className="header">
             <div className="container">
                 <div className="logo-container">
                     <Link href={"/"}><Image
-                        src={require("../../../public/Logo.svg")}
+                        src={logo}
                         alt="Picture of the author"
                     /></Link>
 
