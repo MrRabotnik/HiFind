@@ -5,18 +5,18 @@ import "../globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "HiFind",
-  description: "Developed By Xplode LLC",
+    title: "HiFind",
+    description: "Developed By Xplode LLC",
 };
 
 export default function RootLayout({
-  children,
+    children,
 }: Readonly<{
-  children: React.ReactNode;
+    children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
-  );
+    return (
+        <html lang="en" suppressHydrationWarning={true}>
+            <body className={inter.className}>{children}</body>
+        </html>
+    );
 }

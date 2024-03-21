@@ -5,8 +5,9 @@
 
     .homepage-banner {
         height: 25vw;
-        background-image: url("/banner.svg");
-        background-size: cover;
+        background-image: url("../../Assets/banner.svg");
+        background-size: auto 100%;
+        background-position: -100px;
         color: white;
         font-weight: bold;
 
@@ -24,7 +25,7 @@
 
             button {
                 font-weight: bold;
-                padding: 10px 20px;
+                padding: 10px 30px;
                 font-size: 1.5vw;
             }
         }
@@ -143,6 +144,7 @@
                     font-size: 18px;
                     padding: 10px;
                     line-height: 1.5;
+                    color: $secondary-text-color;
                 }
             }
         }
@@ -189,42 +191,6 @@
                 .boxes-container {
                     flex-direction: column;
                     align-items: center;
-
-                    .suggested-pages-box {
-                        width: 60%;
-                        margin: 0;
-                        margin-bottom: 50px;
-                        border-radius: 25px;
-
-                        .hover-box {
-                            opacity: 1;
-                            position: static;
-                            height: auto;
-                            border-radius: 0 0 25px 25px;
-
-                            div {
-                                svg {
-                                    width: 5%;
-                                }
-                            }
-                        }
-
-                        .box-little-icon {
-                            width: 5vw;
-                            height: 5vw;
-                        }
-
-                        .box-image-container {
-                            img {
-                            }
-                        }
-
-                        .box-text-container {
-                            p {
-                                font-size: 20px;
-                            }
-                        }
-                    }
                 }
             }
         }
@@ -234,14 +200,15 @@
 @media only screen and (max-width: 768px) {
     .main {
         .homepage-banner {
-            height: 200px;
+            height: 40vw;
+            background-position: -200px;
 
             .container {
                 p {
                     font-size: 3vw;
                 }
 
-                button{
+                button {
                     font-size: 12px;
                 }
             }
@@ -258,16 +225,20 @@
                 .boxes-container {
                     flex-direction: column;
 
-                    .suggested-pages-box {
+                    a {
                         width: 100%;
 
-                        .box-little-icon {
-                            width: 50px;
-                            height: 50px;
-                        }
+                        .suggested-pages-box {
+                            width: 100%;
 
-                        .box-image-container {
-                            img {
+                            .box-little-icon {
+                                width: 50px;
+                                height: 50px;
+                            }
+
+                            .box-image-container {
+                                img {
+                                }
                             }
                         }
                     }
@@ -276,6 +247,8 @@
 
             .third-section {
                 flex-direction: column;
+                padding-top: 0;
+                margin-top: 20px;
 
                 .img-container {
                     width: 100%;

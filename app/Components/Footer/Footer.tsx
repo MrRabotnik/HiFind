@@ -43,7 +43,8 @@ export default function Footer() {
                 </div>
                 <div className="footer-info-container">
                     <p>
-                        Մշակված <span>Էքսփլոուդ ՍՊԸ</span>-ի կողմից
+
+                        Մշակված <span><Link href={"https://xplode.am/"} target="_blank">Էքսփլոուդ ՍՊԸ</Link></span>-ի կողմից
                     </p>
                     <p className="all-rights-reserved">
                         Բոլոր իրավունքները պաշտպանված են 2024

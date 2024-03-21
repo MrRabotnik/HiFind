@@ -29,7 +29,7 @@ export default function Home() {
                         Ընդլայնեք Ձեր Instagram-յան բիզնեսը, ապահովեք ավելի բարձր տեսանելիություն, ձեռք բերեք նոր հաճախորդներ, բացահայտեք նոր հնարավորություններ
                     </p>
                     <Link href={"/join-us"}>
-                        <button type="button" className="button">Միացիր Մեզ</button>
+                        <button type="button" className="button">Միացիր մեզ</button>
                     </Link>
                 </div>
             </div>

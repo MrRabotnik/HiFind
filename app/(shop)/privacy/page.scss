@@ -7,12 +7,14 @@
     .container {
         h2 {
             text-align: center;
+            font-size: 32px;
+            margin-bottom: 40px;
         }
 
         .section-container {
             display: flex;
             justify-content: space-between;
-            margin: 90px 0;
+            margin: 40px 0;
 
             .users-name-container {
                 display: flex;
@@ -20,7 +22,6 @@
                 min-width: 250px;
                 margin-right: 40px;
                 border-radius: 25px;
-                overflow: hidden;
 
                 & > div {
                     background-color: $bg-white;
@@ -32,11 +33,26 @@
                         padding: 5px;
                         padding-left: 20px;
                     }
+
+                    &:hover > p {
+                        color: $btn-color;
+                        border-left: 3px solid $btn-color;
+                        font-weight: bold;
+                    }
                 }
 
                 & > div:first-child p {
                     color: $btn-color;
                     border-left: 3px solid $btn-color;
+                    font-weight: bold;
+                }
+
+                & > div:first-child {
+                    border-radius: 25px 25px 0 0;
+                }
+
+                & > div:last-child {
+                    border-radius: 0 0 25px 25px;
                 }
             }
 
@@ -49,6 +65,7 @@
 
                 .users-text {
                     font-size: 24px;
+                    color: $secondary-text-color;
                 }
             }
         }

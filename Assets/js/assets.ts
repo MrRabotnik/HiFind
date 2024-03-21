@@ -1,56 +1,56 @@
 export const recentShopsFile = [
     {
-        categoryIcon: require("../../public/shopping-bag-icon.svg") as string,
-        brandLogo: require("../../public/brand-logo.svg") as string,
+        categoryIcon: require("../../Assets/shopping-bag-icon.svg") as string,
+        brandLogo: require("../../Assets/brand-logo.svg") as string,
         shopName: "Ռոդենի",
         shopInstaName: "rodenishop_am",
         shopDescription: "Եղիր այն մեկը, ումով կհիանան"
     },
     {
-        categoryIcon: require("../../public/gears-icon.svg") as string,
-        brandLogo: require("../../public/brand-logo.svg") as string,
+        categoryIcon: require("../../Assets/gears-icon.svg") as string,
+        brandLogo: require("../../Assets/brand-logo.svg") as string,
         shopName: "Ռոդենի",
         shopInstaName: "rodenishop_am",
         shopDescription: "Եղիր այն մեկը, ումով կհիանան"
     },
     {
-        categoryIcon: require("../../public/dishes-icon.svg") as string,
-        brandLogo: require("../../public/brand-logo.svg") as string,
+        categoryIcon: require("../../Assets/dishes-icon.svg") as string,
+        brandLogo: require("../../Assets/brand-logo.svg") as string,
         shopName: "Ռոդենի",
         shopInstaName: "rodenishop_am",
         shopDescription: "Եղիր այն մեկը, ումով կհիանան"
     },
     {
-        categoryIcon: require("../../public/healthcare-icon.svg") as string,
-        brandLogo: require("../../public/brand-logo.svg") as string,
+        categoryIcon: require("../../Assets/healthcare-icon.svg") as string,
+        brandLogo: require("../../Assets/brand-logo.svg") as string,
         shopName: "Ռոդենի",
         shopInstaName: "rodenishop_am",
         shopDescription: "Եղիր այն մեկը, ումով կհիանան"
     },
     {
-        categoryIcon: require("../../public/brush-icon.svg") as string,
-        brandLogo: require("../../public/brand-logo.svg") as string,
+        categoryIcon: require("../../Assets/brush-icon.svg") as string,
+        brandLogo: require("../../Assets/brand-logo.svg") as string,
         shopName: "Ռոդենի",
         shopInstaName: "rodenishop_am",
         shopDescription: "Եղիր այն մեկը, ումով կհիանան"
     },
     {
-        categoryIcon: require("../../public/shopping-bag-icon.svg") as string,
-        brandLogo: require("../../public/brand-logo.svg") as string,
+        categoryIcon: require("../../Assets/shopping-bag-icon.svg") as string,
+        brandLogo: require("../../Assets/brand-logo.svg") as string,
         shopName: "Ռոդենի",
         shopInstaName: "rodenishop_am",
         shopDescription: "Եղիր այն մեկը, ումով կհիանան"
     },
     {
-        categoryIcon: require("../../public/shopping-bag-icon.svg") as string,
-        brandLogo: require("../../public/brand-logo.svg") as string,
+        categoryIcon: require("../../Assets/shopping-bag-icon.svg") as string,
+        brandLogo: require("../../Assets/brand-logo.svg") as string,
         shopName: "Ռոդենի",
         shopInstaName: "rodenishop_am",
         shopDescription: "Եղիր այն մեկը, ումով կհիանան"
     },
     {
-        categoryIcon: require("../../public/shopping-bag-icon.svg") as string,
-        brandLogo: require("../../public/brand-logo.svg") as string,
+        categoryIcon: require("../../Assets/shopping-bag-icon.svg") as string,
+        brandLogo: require("../../Assets/brand-logo.svg") as string,
         shopName: "Ռոդենի",
         shopInstaName: "rodenishop_am",
         shopDescription: "Եղիր այն մեկը, ումով կհիանան"
@@ -59,85 +59,85 @@ export const recentShopsFile = [
 
 export const allShops = [
     {
-        categoryIcon: require("../../public/shopping-bag-icon.svg") as string,
-        brandLogo: require("../../public/brand-logo.svg") as string,
+        categoryIcon: require("../../Assets/shopping-bag-icon.svg") as string,
+        brandLogo: require("../../Assets/brand-logo.svg") as string,
         shopName: "Ռոդենի",
         shopInstaName: "rodenishop_am",
         shopDescription: "Եղիր այն մեկը, ումով կհիանան"
     },
     {
-        categoryIcon: require("../../public/gears-icon.svg") as string,
-        brandLogo: require("../../public/brand-logo.svg") as string,
+        categoryIcon: require("../../Assets/gears-icon.svg") as string,
+        brandLogo: require("../../Assets/brand-logo.svg") as string,
         shopName: "Ռոդենի",
         shopInstaName: "rodenishop_am",
         shopDescription: "Եղիր այն մեկը, ումով կհիանան"
     },
     {
-        categoryIcon: require("../../public/dishes-icon.svg") as string,
-        brandLogo: require("../../public/brand-logo.svg") as string,
+        categoryIcon: require("../../Assets/dishes-icon.svg") as string,
+        brandLogo: require("../../Assets/brand-logo.svg") as string,
         shopName: "Ռոդենի",
         shopInstaName: "rodenishop_am",
         shopDescription: "Եղիր այն մեկը, ումով կհիանան"
     },
     {
-        categoryIcon: require("../../public/healthcare-icon.svg") as string,
-        brandLogo: require("../../public/brand-logo.svg") as string,
+        categoryIcon: require("../../Assets/healthcare-icon.svg") as string,
+        brandLogo: require("../../Assets/brand-logo.svg") as string,
         shopName: "Ռոդենի",
         shopInstaName: "rodenishop_am",
         shopDescription: "Եղիր այն մեկը, ումով կհիանան"
     },
     {
-        categoryIcon: require("../../public/brush-icon.svg") as string,
-        brandLogo: require("../../public/brand-logo.svg") as string,
+        categoryIcon: require("../../Assets/brush-icon.svg") as string,
+        brandLogo: require("../../Assets/brand-logo.svg") as string,
         shopName: "Ռոդենի",
         shopInstaName: "rodenishop_am",
         shopDescription: "Եղիր այն մեկը, ումով կհիանան"
     },
     {
-        categoryIcon: require("../../public/shopping-bag-icon.svg") as string,
-        brandLogo: require("../../public/brand-logo.svg") as string,
+        categoryIcon: require("../../Assets/shopping-bag-icon.svg") as string,
+        brandLogo: require("../../Assets/brand-logo.svg") as string,
         shopName: "Ռոդենի",
         shopInstaName: "rodenishop_am",
         shopDescription: "Եղիր այն մեկը, ումով կհիանան"
     },
     {
-        categoryIcon: require("../../public/shopping-bag-icon.svg") as string,
-        brandLogo: require("../../public/brand-logo.svg") as string,
+        categoryIcon: require("../../Assets/shopping-bag-icon.svg") as string,
+        brandLogo: require("../../Assets/brand-logo.svg") as string,
         shopName: "Ռոդենի",
         shopInstaName: "rodenishop_am",
         shopDescription: "Եղիր այն մեկը, ումով կհիանան"
     },
     {
-        categoryIcon: require("../../public/shopping-bag-icon.svg") as string,
-        brandLogo: require("../../public/brand-logo.svg") as string,
+        categoryIcon: require("../../Assets/shopping-bag-icon.svg") as string,
+        brandLogo: require("../../Assets/brand-logo.svg") as string,
         shopName: "Ռոդենի",
         shopInstaName: "rodenishop_am",
         shopDescription: "Եղիր այն մեկը, ումով կհիանան"
     },
     {
-        categoryIcon: require("../../public/shopping-bag-icon.svg") as string,
-        brandLogo: require("../../public/brand-logo.svg") as string,
+        categoryIcon: require("../../Assets/shopping-bag-icon.svg") as string,
+        brandLogo: require("../../Assets/brand-logo.svg") as string,
         shopName: "Ռոդենի",
         shopInstaName: "rodenishop_am",
         shopDescription: "Եղիր այն մեկը, ումով կհիանան"
     },
     {
-        categoryIcon: require("../../public/shopping-bag-icon.svg") as string,
-        brandLogo: require("../../public/brand-logo.svg") as string,
+        categoryIcon: require("../../Assets/shopping-bag-icon.svg") as string,
+        brandLogo: require("../../Assets/brand-logo.svg") as string,
         shopName: "Ռոդենի",
         shopInstaName: "rodenishop_am",
         shopDescription: "Եղիր այն մեկը, ումով կհիանան"
     },
     {
-        categoryIcon: require("../../public/shopping-bag-icon.svg") as string,
-        brandLogo: require("../../public/brand-logo.svg") as string,
+        categoryIcon: require("../../Assets/shopping-bag-icon.svg") as string,
+        brandLogo: require("../../Assets/brand-logo.svg") as string,
         shopName: "Ռոդենի",
         shopInstaName: "rodenishop_am",
         shopDescription: "Եղիր այն մեկը, ումով կհիանան"
     },
     {
-        categoryIcon: require("../../public/shopping-bag-icon.svg") as string,
-        brandLogo: require("../../public/brand-logo.svg") as string,
+        categoryIcon: require("../../Assets/shopping-bag-icon.svg") as string,
+        brandLogo: require("../../Assets/brand-logo.svg") as string,
         shopName: "Ռոդենի",
         shopInstaName: "rodenishop_am",
         shopDescription: "Եղիր այն մեկը, ումով կհիանան"

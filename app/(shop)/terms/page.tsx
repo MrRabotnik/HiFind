@@ -8,7 +8,7 @@ const Terms = () => {
             <Header></Header>
             <section className='terms-section'>
                 <div className='container'>
-                    <h2>Օգտագործման Պայմաններ</h2>
+                    <h2>Օգտագործման պայմաններ</h2>
                     <div className="users-container">
                         <div>Օգտատեր</div>
                         <div>Օգտատեր</div>

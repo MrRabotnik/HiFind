@@ -7,12 +7,14 @@
     .container {
         h2 {
             text-align: center;
+            font-size: 32px;
+            margin: 40px 0;
         }
 
         .users-container {
             display: flex;
             justify-content: space-between;
-            margin: 90px 0;
+            margin: 40px 0;
 
             & > div {
                 border-radius: 50%;
@@ -22,11 +24,19 @@
                 justify-content: center;
                 align-items: center;
                 background-color: rgb(200, 200, 200);
+                font-size: 24px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: $btn-color-hover;
+                    color: white;
+                }
             }
 
             & > div:first-child {
                 background-color: $btn-color;
                 color: $btn-color-text;
+                font-weight: bold;
             }
         }
 
@@ -34,15 +44,26 @@
             display: flex;
 
             .users-name {
-                text-align: center;
-                width: 25%;
+                width: 20%;
                 font-size: 24px;
                 font-weight: bold;
             }
 
             .users-text {
-                width: 75%;
+                color: $secondary-text-color;
+                width: 80%;
                 font-size: 24px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .terms-section {
+        .container {
+            .users-container {
+                & > div {
+                    font-size: 2vw;
+                }
             }
         }
     }
@@ -60,6 +81,7 @@
                     width: 30vw;
                     height: 30vw;
                     margin-bottom: 20px;
+                    font-size: 24px;
                 }
             }
 

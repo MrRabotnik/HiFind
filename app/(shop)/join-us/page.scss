@@ -35,19 +35,58 @@
                     border: 1px solid #eaeaea;
                 }
 
-                textarea {
-                    padding: 15px 20px;
-                    width: 90%;
-                    border-radius: 25px;
-                    border: 1px solid #eaeaea;
-                    resize: none;
+                .description-textarea {
+                    position: relative;
                     margin-bottom: 30px;
-                    min-height: 80px;
+                    width: 100%;
+
+                    textarea {
+                        width: 100%;
+                        padding: 15px 20px;
+                        border-radius: 25px;
+                        border: 1px solid #eaeaea;
+                        box-sizing: border-box;
+                        resize: none;
+                        min-height: 80px;
+                    }
+
+                    & > span {
+                        position: absolute;
+                        width: 0;
+                        bottom: -15px;
+                        right: 25px;
+                        color: $secondary-text-color;
+                    }
+                }
+
+                .add-photo {
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                    color: $secondary-text-color;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    border: 2px solid #EC008B;
+
+                    & > img {
+                        margin-bottom: 10px;
+                        width: 25px;
+                        height: 25px;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 12px;
+                        margin: 0;
+                    }
                 }
 
                 ul {
                     padding: 0;
                     list-style: none;
+                    margin-top: 0;
 
                     li {
                         width: 100%;
@@ -60,37 +99,38 @@
                     }
                 }
 
-                span {
-                    width: 100%;
-                    font-size: 12px;
-                }
-
                 .agreed {
                     display: flex;
 
                     .checkbox-round {
-                        width: 25px;
+                        width: 27px;
                         height: 25px;
                         background-color: white;
                         border: 1px solid #ddd;
-                        -webkit-appearance: none;
-                        appearance: none;
-                        outline: none;
                         cursor: pointer;
-                        padding: 0;
                         border-radius: 50%;
-                        margin: 0;
-                        margin-right: 5px;
-                    }
+                        margin-right: 10px;
+                        // background-color: $btn-color;
 
-                    .checkbox-round:checked {
-                        background-color: rgb(102, 102, 102);
+                        & > svg {
+                            width: 100%;
+                            height: 100%;
+                            color: $btn-color;
+                        }
                     }
                 }
 
                 button {
                     width: 100%;
                     margin-top: 20px;
+                }
+
+                span {
+                    width: 100%;
+                    font-size: 12px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
                 }
 
                 .disabled {
@@ -136,6 +176,7 @@
                 .join-us-modal {
                     padding: 60px 20px;
                     width: 100%;
+                    border-radius: 0;
                 }
             }
         }

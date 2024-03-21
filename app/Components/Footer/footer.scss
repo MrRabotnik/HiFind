@@ -1,4 +1,7 @@
+@import "../../constants.scss";
+
 .footer {
+    background-color: $bg-white;
     .container {
         height: 200px;
         display: flex;
@@ -35,7 +38,7 @@
 
                 .mail-icon-container {
                     margin-right: 15px;
-                    
+
                     svg {
                         width: 50px;
                     }
@@ -50,7 +53,14 @@
             justify-content: space-between;
 
             span {
-                color: #e10084;
+                a {
+                    text-decoration: none;
+                    color: #e10084;
+
+                    &:hover {
+                        color: $btn-color-hover;
+                    }
+                }
             }
 
             .all-rights-reserved {
@@ -60,8 +70,26 @@
     }
 }
 
+@media only screen and (max-width: 1024px) {
+    .footer {
+        .container {
+            .footer-logo-container {
+                width: 20%;
+            }
+
+            .footer-links-container {
+                width: 40%;
+            }
+
+            .footer-info-container {
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .footer {
+        padding: 45px 0 25px 0;
         .container {
             height: auto;
             flex-direction: column;
