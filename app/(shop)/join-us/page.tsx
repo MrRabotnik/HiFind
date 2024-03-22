@@ -37,13 +37,13 @@ const JoinUs = () => {
 
                             <p>Նկարագրություն</p>
                             <div className="description-textarea">
-                                <textarea maxLength={20} placeholder="Նկարագրությունը հայերեն"></textarea>
-                                <span>0/20</span>
+                                <textarea maxLength={150} placeholder="Նկարագրությունը հայերեն"></textarea>
+                                <span>0/150</span>
                             </div>
 
                             <div className="description-textarea">
-                                <textarea maxLength={20} placeholder="Նկարագրությունը անգլերեն"></textarea>
-                                <span>0/20</span>
+                                <textarea maxLength={150} placeholder="Նկարագրությունը անգլերեն"></textarea>
+                                <span>0/150</span>
                             </div>
 
                             <p>Նկար</p>

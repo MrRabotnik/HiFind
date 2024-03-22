@@ -34,34 +34,36 @@ const Notification = () => {
     return (
         <section>
             <aside>
-                <Image src={logo} alt="logo"></Image>
-                <nav>
-                    <div className="selected">
-                        <Link href="/dashboard/notifications">
-                            <Image src={bellIcon} alt="Bell Icon"></Image>
-                            <div>Ծանուցումներ</div>
-                            <span>3</span>
-                        </Link>
-                    </div>
-                    <div>
-                        <Link href="/dashboard/approved">
-                            <Image src={userCheckIcon} alt="Bell Icon"></Image>
-                            <div>Հաստատված հաշիվներ</div>
-                        </Link>
-                    </div>
-                    <div>
-                        <Link href="/dashboard/denied">
-                            <Image src={userMinusIcon} alt="Bell Icon"></Image>
-                            <div>Մերժված հայտեր</div>
-                        </Link>
-                    </div>
-                    <div>
-                        <Link href="/dashboard/categories-list">
-                            <Image src={filterIcon} alt="Bell Icon"></Image>
-                            <div>Ընտրացանկ</div>
-                        </Link>
-                    </div>
-                </nav>
+                <div className="top-part">
+                    <Image src={logo} alt="logo"></Image>
+                    <nav>
+                        <div className="selected">
+                            <Link href="/dashboard/notifications">
+                                <Image src={bellIcon} alt="Bell Icon"></Image>
+                                <div>Ծանուցումներ</div>
+                                <span>3</span>
+                            </Link>
+                        </div>
+                        <div>
+                            <Link href="/dashboard/approved">
+                                <Image src={userCheckIcon} alt="Bell Icon"></Image>
+                                <div>Հաստատված հաշիվներ</div>
+                            </Link>
+                        </div>
+                        <div>
+                            <Link href="/dashboard/denied">
+                                <Image src={userMinusIcon} alt="Bell Icon"></Image>
+                                <div>Մերժված հայտեր</div>
+                            </Link>
+                        </div>
+                        <div>
+                            <Link href="/dashboard/categories-list">
+                                <Image src={filterIcon} alt="Bell Icon"></Image>
+                                <div>Ընտրացանկ</div>
+                            </Link>
+                        </div>
+                    </nav>
+                </div>
                 <div>
                     <Image src={signOutIcon} alt="Sign Out Icon"></Image>
                     <p>Դուրս գալ</p>
