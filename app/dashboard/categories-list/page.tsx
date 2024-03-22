@@ -83,7 +83,7 @@ const CategoriesList = () => {
 
 export default CategoriesList
 
-export const CategoryItem: any = (props: any) => {
+const CategoryItem: any = (props: any) => {
     return (
         <div className="row">
             <div className="first-column">
