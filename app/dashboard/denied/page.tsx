@@ -4,7 +4,7 @@ import "./page.scss"
 // import axios from "axios"
 import Image from "next/image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheckCircle, faXmarkCircle } from "@fortawesome/free-solid-svg-icons";
+import { faCheckCircle, faSearch, faXmarkCircle } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 
 import logo from "../../../Assets/logo.svg";
@@ -35,34 +35,36 @@ const Denied = () => {
     return (
         <section>
             <aside>
-                <Image src={logo} alt="logo"></Image>
-                <nav>
-                    <div >
-                        <Link href="/dashboard/notifications">
-                            <Image src={bellIcon} alt="Bell Icon"></Image>
-                            <div>Ծանուցումներ</div>
-                            <span>3</span>
-                        </Link>
-                    </div>
-                    <div>
-                        <Link href="/dashboard/approved">
-                            <Image src={userCheckIcon} alt="Bell Icon"></Image>
-                            <div>Հաստատված հաշիվներ</div>
-                        </Link>
-                    </div>
-                    <div className="selected">
-                        <Link href="/dashboard/denied">
-                            <Image src={userMinusIcon} alt="Bell Icon"></Image>
-                            <div>Մերժված հայտեր</div>
-                        </Link>
-                    </div>
-                    <div>
-                        <Link href="/dashboard/categories-list">
-                            <Image src={filterIcon} alt="Bell Icon"></Image>
-                            <div>Ընտրացանկ</div>
-                        </Link>
-                    </div>
-                </nav>
+                <div className="top-part">
+                    <Image src={logo} alt="logo"></Image>
+                    <nav>
+                        <div>
+                            <Link href="/dashboard/notifications">
+                                <Image src={bellIcon} alt="Bell Icon"></Image>
+                                <div>Ծանուցումներ</div>
+                                <span>3</span>
+                            </Link>
+                        </div>
+                        <div>
+                            <Link href="/dashboard/approved">
+                                <Image src={userCheckIcon} alt="Bell Icon"></Image>
+                                <div>Հաստատված հաշիվներ</div>
+                            </Link>
+                        </div>
+                        <div className="selected">
+                            <Link href="/dashboard/denied">
+                                <Image src={userMinusIcon} alt="Bell Icon"></Image>
+                                <div>Մերժված հայտեր</div>
+                            </Link>
+                        </div>
+                        <div>
+                            <Link href="/dashboard/categories-list">
+                                <Image src={filterIcon} alt="Bell Icon"></Image>
+                                <div>Ընտրացանկ</div>
+                            </Link>
+                        </div>
+                    </nav>
+                </div>
                 <div>
                     <Image src={signOutIcon} alt="Sign Out Icon"></Image>
                     <p>Դուրս գալ</p>
@@ -70,6 +72,14 @@ const Denied = () => {
             </aside>
             <main>
                 <h2>Մերժված հայտեր</h2>
+                <div className="search">
+                    <div className="search-input-container">
+                        <input type="text" placeholder="Որոնել" />
+                    </div>
+                    <div className="search-icon-container">
+                        <FontAwesomeIcon icon={faSearch} />
+                    </div>
+                </div>
                 <div className="table">
                     <div className="table-titles">
                         <p>Անուն</p>
